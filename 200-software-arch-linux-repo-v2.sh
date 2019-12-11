@@ -19,7 +19,7 @@ set -e
 # Core, Extra, Community, Multilib repositories
 echo "Installing category Accessories"
 
-sudo pacman -S --noconfirm --needed catfish
+# sudo pacman -S --noconfirm --needed catfish
 sudo pacman -S --noconfirm --needed cronie
 sudo pacman -S --noconfirm --needed galculator
 sudo pacman -S --noconfirm --needed gnome-screenshot
@@ -31,7 +31,7 @@ sudo pacman -S --noconfirm --needed variety
 
 echo "Installing category Development"
 
-sudo pacman -S --noconfirm --needed atom
+# sudo pacman -S --noconfirm --needed atom
 sudo pacman -S --noconfirm --needed geany
 sudo pacman -S --noconfirm --needed meld
 #sudo pacman -S --noconfirm --needed
@@ -50,7 +50,7 @@ echo "Installing category Graphics"
 sudo pacman -S --noconfirm --needed gimp
 #sudo pacman -S --noconfirm --needed gnome-font-viewer
 #sudo pacman -S --noconfirm --needed gpick
-sudo pacman -S --noconfirm --needed inkscape
+# sudo pacman -S --noconfirm --needed inkscape
 sudo pacman -S --noconfirm --needed nomacs
 #sudo pacman -S --noconfirm --needed pinta
 sudo pacman -S --noconfirm --needed ristretto
@@ -62,7 +62,7 @@ sudo pacman -S --noconfirm --needed chromium
 #sudo pacman -S --noconfirm --needed filezilla
 sudo pacman -S --noconfirm --needed firefox
 #sudo pacman -S --noconfirm --needed hexchat
-sudo pacman -S --noconfirm --needed qbittorrent
+# sudo pacman -S --noconfirm --needed qbittorrent
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Multimedia"
@@ -81,7 +81,7 @@ sudo pacman -S --noconfirm --needed vlc
 echo "Installing category Office"
 
 sudo pacman -S --noconfirm --needed evince
-sudo pacman -S --noconfirm --needed evolution
+# sudo pacman -S --noconfirm --needed evolution
 #sudo pacman -S --noconfirm --needed geary
 #sudo pacman -S --noconfirm --needed libreoffice-fresh
 #sudo pacman -S --noconfirm --needed
